@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f2a154;
+}
+
+.wellcome {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 90px 0;
+}
+
+.wellcome img {
+    max-width: 100%;
+    margin-top: 20px
+
+}
+section#about .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section#about p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+section#about a {
+    color: #007bff; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+section#about a:hover {
+    text-decoration: underline;
+}
+
+.kemampuan {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.kemampuan h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.kemampuan p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.profil {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.profil h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.profil img {
+    max-width: 50%; 
+    height: auto;
+    margin: 10px; 
+}
+
+.profil p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.profil .gambar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.kontak {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #868686;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kontak h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.kontak p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #000000;
+}
